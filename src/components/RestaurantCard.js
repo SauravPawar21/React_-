@@ -5,7 +5,7 @@ const RestaurantCard = ({ resData }) => {
 
     const {name,cuisines,avgRating,costForTwo,sla,deliveryTime}=info;
   
-    if (!info) return null; // avoid rendering if data missing
+    if (!info) return null; 
   
     return (
       <div className="res-card" style={{ backgroundColor: "#f0f0f0", margin: "10px", padding: "10px", borderRadius: "10px", width: "300px" }}>
